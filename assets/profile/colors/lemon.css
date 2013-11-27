@@ -1,0 +1,44 @@
+
+/* -----------------------------------------------------------------------------
+	QOLA - RESPONSIVE ONE-PAGE HTML/CSS TEMPLATE
+	v.1.0
+------------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+	COLOR - Lemon
+------------------------------------------------------------------------------- */
+	
+	a,
+	.highlited,
+	.nav-menu li a:hover,
+	.nav-menu li a.active,
+	ul.social-icons li a:hover {
+		color:rgb(201,226,30);
+	}
+	
+	.loader-ball,
+	.flex-control-paging li a.flex-active,
+	.heading:after,
+	.contact-list li a:hover .contact-icon:after,
+	.end:before,
+	.accordion .ui-accordion-header-icon,
+	blockquote:before,
+	.bx-wrapper .bx-pager.bx-default-pager a:hover,
+	.bx-wrapper .bx-pager.bx-default-pager a.active,
+	.single-project:after,
+	#style-switcher .close {
+		background-color:rgb(201,226,30);
+	}
+	
+	.button.defalut,
+	.welcome-text,
+	.bended-square.outline,
+	.contact-list li a:hover .contact-icon,
+	.loader,
+	.tabs ul .ui-tabs-active,
+	.bx-wrapper .bx-controls-direction a:hover {
+		border-color:rgb(201,226,30);
+	}
+	
+	
+	

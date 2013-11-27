@@ -1,0 +1,142 @@
+#style-switcher {
+	-webkit-box-sizing: content-box; 
+	-moz-box-sizing: content-box; 
+	box-sizing: content-box; 
+	background: rgb(0,0,0);
+	color: rgb(255,255,255);
+	position: fixed;
+	top: 50%;
+	right: -210px;
+	margin-top: -200px;
+	z-index: 9995;
+	padding: 15px;
+	width: 180px;
+}
+
+#style-switcher .close {
+	position: absolute;
+	top: 0;
+	left: -40px;
+	width: 40px;
+	height: 40px;
+	display:block;
+	font-size: 13px;
+	font-weight: 100;
+	color: rgb(255,255,255);
+	text-align: center;
+	cursor: pointer;
+	z-index:9996;
+}
+
+#style-switcher .close {
+	padding-top: 12px;
+}
+
+#style-switcher .close:hover {
+	text-decoration: none;
+}
+
+#style-switcher .label {
+	display: block;
+	font-weight: 700;
+	font-size: 11px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid rgb(50,50,50);
+	margin-bottom: 10px;
+}
+
+.option-switcher li {
+	float: left;
+	margin-right: 10px;
+	font-size: 11px;
+	font-weight: 700;
+}
+
+.option-switcher li a {
+	display: block;
+	padding: 7px;
+	border: 2px solid rgb(50,50,50);
+}
+
+.option-switcher li a.active {
+	border-color: rgb(255,255,255);
+}
+
+.option-switcher a {
+	color: inherit;
+	cursor: pointer;
+}
+
+.color-switcher a:hover {
+	text-decoration: none;
+}
+
+.color-label i {
+	font-size: 20px;
+	color: rgb(210,210,210);
+	display: block;
+	text-align: center;
+	margin: 10px 0px;
+}
+
+.color-switcher li {
+	float: left;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+.color-switcher li:last-child {
+	margin-right: 0px;
+}
+
+.color-switcher a {
+	display: block;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	text-align: center;
+	font-family: "FontAwesome";
+	font-weight: normal;
+	font-size: 11px;
+	color: rgb(255,255,255);
+	padding-top: 6px;
+}
+
+.color-switcher a:hover:before{
+	display:block;
+	font-size: 11px;
+	content: '\f067';
+}
+
+.color-switcher a.active:hover:before {
+	content: "\f00c";
+	font-size: 11px;
+	padding: 0px;
+}
+
+.color-switcher .active:before {
+	display: block;
+	content:  "\f00c";
+}
+
+.color-switcher #lemon			 { background: rgb(201,226,30); }
+.color-switcher #orange			 { background: rgb(249,172,52); }
+.color-switcher #blue				 { background: rgb(60,182,246); }
+.color-switcher #navy-blue		 { background: rgb(64,72,228); }
+.color-switcher #red   			 { background: rgb(245,69,69); }
+.color-switcher #yellow			 { background: rgb(250,223,71); }
+.color-switcher #pink				 { background: rgb(253,100,172); }
+.color-switcher #violet			 { background: rgb(180,122,252); }
+.color-switcher #grey   			 { background: rgb(172,172,172); }
+
+.back-home i {
+	font-size: 20px;
+	color: rgb(210,210,210);
+	display: block;
+	text-align: center;
+	margin: 10px 0px;
+}
+
+.back-home:hover i {
+	color: rgb(30,30,30);
+}
